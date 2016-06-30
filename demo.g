@@ -14,4 +14,8 @@ EvaluateBySCSCP( "StringToString", [ "DerivedSubgroup(SymmetricGroup(6))" ], "lo
 
 EvaluateBySCSCP( "StringToOpenMath", [ "1+2" ], "localhost", 26133 : output:="tree").object;
 
-EvaluateBySCSCP( "StringToString", [ "a:=1" ], "localhost", 26133).object;
+EvaluateBySCSCP( "StringToString", [ "b:=2" ], "localhost", 26133).object;
+
+EvaluateBySCSCP( "StringToString", [ "c:=3" ], "localhost", 26133).object;
+
+EvaluateBySCSCP( "StringToString", [ "b*c" ], "localhost", 26133).object;
